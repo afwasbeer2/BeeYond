@@ -10,13 +10,11 @@ body {
 }
 
 .navbar {
-  width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   background-color: #D4B27B;
   width: 355px;
   border-radius: 10px;
   margin: 10px;
-
 }
 
 .nav-container {
@@ -244,6 +242,7 @@ body {
 
 }
 
+
 .pijltje {
   display: flex;
   width: 100%;
@@ -315,11 +314,17 @@ body {
 
 .feitjes p {
   width: 50vw;
+  height: 200px;
 }
 
 .feitjes img {
   width: 30vw;
-  height: 200px
+  height: 140px
+}
+
+.bij2{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /*pagina zelfmaken*/
@@ -367,6 +372,11 @@ body {
 .stap3 {
   width: 35vw;
   height: auto;
+}
+
+.stap2{
+  height: 30vh;
+  margin-top: 6vh;
 }
 
 /*pagina waarom*/
@@ -434,11 +444,21 @@ body {
   transform: scaleX(-1);
 }
 
-.bij-waarom {
+.bij-waarom1, .bij-waarom2, .bij-waarom3 {
   width: 30vw;
-  height: 30vh;
 }
 
+.bij-waarom1 {
+  height: 28vh;
+}
+
+.bij-waarom2{
+  height: 25vh;
+}
+
+.bij-waarom3 {
+  height: 25vh;
+}
 .weetje2 {
   position: absolute;
   font-size: 15px;
@@ -475,4 +495,5 @@ body {
   height: 45vh;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+  margin-bottom: 40px;
 }
