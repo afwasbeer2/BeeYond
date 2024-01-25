@@ -9,6 +9,7 @@ body {
   height: 100%;
 }
 
+/* navbar */
 .navbar {
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   background-color: #D4B27B;
@@ -150,6 +151,7 @@ body {
   display: none;
 }
 
+/* footer */
 
 .footer {
   position: absolute;
@@ -231,7 +233,7 @@ body {
 }
 
 .speech {
-  width: 45%;
+  width: 50%;
   height: auto;
 
 }
@@ -322,7 +324,7 @@ body {
   height: 140px
 }
 
-.bij2{
+.bij2 {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -374,16 +376,16 @@ body {
   height: auto;
 }
 
-.stap2{
+.stap2 {
   height: 30vh;
   margin-top: 6vh;
 }
 
-/*pagina waarom*/
-
 .stap3-tekst {
   margin-bottom: 50px;
 }
+
+/*pagina waarom*/
 
 .titel3 {
   margin-top: 20px;
@@ -444,7 +446,9 @@ body {
   transform: scaleX(-1);
 }
 
-.bij-waarom1, .bij-waarom2, .bij-waarom3 {
+.bij-waarom1,
+.bij-waarom2,
+.bij-waarom3 {
   width: 30vw;
 }
 
@@ -452,13 +456,14 @@ body {
   height: 28vh;
 }
 
-.bij-waarom2{
+.bij-waarom2 {
   height: 25vh;
 }
 
 .bij-waarom3 {
   height: 25vh;
 }
+
 .weetje2 {
   position: absolute;
   font-size: 15px;
